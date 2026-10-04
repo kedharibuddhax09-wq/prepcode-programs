@@ -1,0 +1,6 @@
+data=input()
+data=data.split()
+it=(data[0])
+its=(data[1])
+result=(it/its)
+print(result)
