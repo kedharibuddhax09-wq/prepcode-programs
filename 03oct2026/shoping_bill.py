@@ -1,0 +1,6 @@
+data=input()
+data=data.split()
+bo=int(data[0])
+pe=int(data[1])
+result=(bo*3+pe*2)
+print(result)
