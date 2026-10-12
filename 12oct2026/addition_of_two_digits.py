@@ -1,4 +1,7 @@
 number=int(input("eneter the number:"))
 total=0
-while num>0:
-    last_
+while number > 0:
+    last = number % 10
+    number = number // 10
+    total = total+number
+print(total)
